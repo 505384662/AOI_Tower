@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "UY1MEmdGjfIonqrtxFEmIbIL08FYN9RksEQ2OziglbhvCR1P1JNeuA4yymn70SfgvsUlQFHUWv9W57ggc9mO8A==",
+  "success": true,
+  "projectFilePath": "E:\\work\\TestCode\\AOI_Tower\\AOI_Tower\\AOI_Tower.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\helinsen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\helinsen\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\helinsen\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\helinsen\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

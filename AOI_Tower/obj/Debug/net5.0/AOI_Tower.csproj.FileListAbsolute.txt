@@ -1,0 +1,16 @@
+E:\work\TestCode\AOI_Tower\AOI_Tower\bin\Debug\net5.0\AOI_Tower.exe
+E:\work\TestCode\AOI_Tower\AOI_Tower\bin\Debug\net5.0\AOI_Tower.deps.json
+E:\work\TestCode\AOI_Tower\AOI_Tower\bin\Debug\net5.0\AOI_Tower.runtimeconfig.json
+E:\work\TestCode\AOI_Tower\AOI_Tower\bin\Debug\net5.0\AOI_Tower.runtimeconfig.dev.json
+E:\work\TestCode\AOI_Tower\AOI_Tower\bin\Debug\net5.0\AOI_Tower.dll
+E:\work\TestCode\AOI_Tower\AOI_Tower\bin\Debug\net5.0\ref\AOI_Tower.dll
+E:\work\TestCode\AOI_Tower\AOI_Tower\bin\Debug\net5.0\AOI_Tower.pdb
+E:\work\TestCode\AOI_Tower\AOI_Tower\obj\Debug\net5.0\AOI_Tower.csproj.AssemblyReference.cache
+E:\work\TestCode\AOI_Tower\AOI_Tower\obj\Debug\net5.0\AOI_Tower.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\TestCode\AOI_Tower\AOI_Tower\obj\Debug\net5.0\AOI_Tower.AssemblyInfoInputs.cache
+E:\work\TestCode\AOI_Tower\AOI_Tower\obj\Debug\net5.0\AOI_Tower.AssemblyInfo.cs
+E:\work\TestCode\AOI_Tower\AOI_Tower\obj\Debug\net5.0\AOI_Tower.csproj.CoreCompileInputs.cache
+E:\work\TestCode\AOI_Tower\AOI_Tower\obj\Debug\net5.0\AOI_Tower.dll
+E:\work\TestCode\AOI_Tower\AOI_Tower\obj\Debug\net5.0\ref\AOI_Tower.dll
+E:\work\TestCode\AOI_Tower\AOI_Tower\obj\Debug\net5.0\AOI_Tower.pdb
+E:\work\TestCode\AOI_Tower\AOI_Tower\obj\Debug\net5.0\AOI_Tower.genruntimeconfig.cache
