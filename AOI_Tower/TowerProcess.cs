@@ -46,14 +46,14 @@ namespace AOI_Tower
         }
 
 
-        public bool AddObj(UInt64 uiUserId, float[] pos, UInt64 uiMask, bool bMarKer, bool bWatcher, UInt32 viewRadius)
+        public bool AddObj(UInt64 uiUserId, float PosX, float PosY, float PosZ, UInt64 uiMask, bool bMarKer, bool bWatcher, UInt32 viewRadius)
         {
             if (m_AoiObjDic.ContainsKey(uiUserId))
             {
                 return false;
             }
 
-            var iSlotIndex = GlobalTowerSpace.TowerSpace_AddAoiObj(ref m_pTowerSpace, uiUserId, pos, uiMask);
+            var iSlotIndex = GlobalTowerSpace.TowerSpace_AddAoiObj(ref m_pTowerSpace, uiUserId, PosX, PosY, PosZ, uiMask);
             if (-1 == iSlotIndex)
             {
                 return false;
@@ -98,21 +98,21 @@ namespace AOI_Tower
         }
 
 
-        public bool UpdateObjPos(UInt64 uiUserId, float[] pos)
+        public bool UpdateObjPos(UInt64 uiUserId, float PosX, float PosY, float PosZ)
         {
             if (!m_AoiObjDic.ContainsKey(uiUserId))
             {
                 return false;
             }
 
-            if (!GlobalTowerSpace.TowerSpace_UpdateAoiObjPos(ref m_pTowerSpace, m_AoiObjDic[uiUserId], pos))
+            if (!GlobalTowerSpace.TowerSpace_UpdateAoiObjPos(ref m_pTowerSpace, m_AoiObjDic[uiUserId], PosX, PosY, PosZ))
             {
                 return false;
             }
 
             return true;
         }
-
+        
         public bool AddObjWatcher(UInt64 uiUserId, UInt32 viewRadius)
         {
             if (!m_AoiObjDic.ContainsKey(uiUserId))

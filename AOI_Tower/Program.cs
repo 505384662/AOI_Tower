@@ -10,21 +10,28 @@ namespace AOI_Tower
         public const int m_viewRadius = 150;
 
         public const int m_ObjCount = 10000;
-        static void Main(string[] args)
+        static void Main()
         {
             var tower = new TowerProcess();
-            tower.Start(m_gridLength, 0, 0, 50*50, 50*50, m_splitThresShold);
+            tower.Start(m_gridLength, 0, 0, 50 * 50, 50 * 50, m_splitThresShold);
             DateTime dt = DateTime.Now;
-            for(UInt64 i = 0; i < m_ObjCount; i++)
+            for (UInt64 i = 0; i < m_ObjCount; i++)
             {
-                tower.AddObj(i, new float[]{ 930, 12720, 320}, m_uiMask, false, true, m_viewRadius);
-                tower.UpdateObjPos(i, new float[] { 930, 930, 320 });
-                tower.UpdateObjPos(i, new float[] { 1000, 1000, 320 });
+                tower.AddObj(i,  930, 12720, 320 , m_uiMask, true, true, m_viewRadius);
                 //tower.RemoveObj(i);
             }
-           
 
-            Console.WriteLine(string.Format("灯塔数:{0:G} 人数:{1:G} 花费时间{2:G}毫秒",tower.GetTowerCount(),m_ObjCount,(DateTime.Now - dt).TotalMilliseconds));
+            while (true)
+            {
+                for (UInt64 i = 0; i < m_ObjCount; i++)
+                {
+                    tower.UpdateObjPos(i, 930 + 20, 930, 320 + 30);
+                   // Console.WriteLine(string.Format("角色id:{0:G},位置X:{1:G},位置Y:{2:G},位置Z:{3:G}", i, x, y, z));
+  
+                   tower.UpdateObjPos(i, 1000 + 50, 1000, 320 + 60);
+                   // Console.WriteLine(string.Format("角色id:{0:G},位置X:{1:G},位置Y:{2:G},位置Z:{3:G}", i, x, y, z));
+                }
+            }
         }
     }
 }
